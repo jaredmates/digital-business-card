@@ -1,15 +1,15 @@
 import React from "react";
-import ken from "../images/ken.jpg";
+import me from "../images/Me.jpg";
 
 function Header() {
   return (
     <div className="header-container">
-      <img src={ken} alt="" className="profile-pic" />
+      <img src={me} alt="" className="profile-pic" />
 
       <div className="content-container">
-        <h1>Laura Smith</h1>
+        <h1>Jared Mates</h1>
         <h3>Frontend Developer</h3>
-        <a href="">laurasmith.website</a>
+        <a href="">jaredmates.website</a>
       </div>
 
       <div className="button-container">
